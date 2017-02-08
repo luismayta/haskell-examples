@@ -1,0 +1,7 @@
+version: '2'
+services:
+  haskell-examples:
+    restart: always
+    image: python:3.6
+    volumes:
+    - ./:/app/
